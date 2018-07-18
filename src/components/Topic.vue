@@ -55,7 +55,7 @@ export default{
 	components:{Loading},
 	created(){
       	this.loading = true;
-		this.tab=this.$route.params.tab;
+		this.tab=this.$route.params.tab||'all';
 		this.ajaxGetInfo();
 	},
 	watch: {

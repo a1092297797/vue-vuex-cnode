@@ -14,7 +14,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect:'/topic/all',
+      component: Topic
     },
     {
       path: '/topic/:tab',
